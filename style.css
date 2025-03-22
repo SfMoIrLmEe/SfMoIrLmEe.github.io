@@ -1,0 +1,146 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #f7d125;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.banner {
+  width: 95%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.pfp {
+  margin-top: 5px;
+}
+
+.content {
+  display: flex;
+  align-items: center; 
+  padding: 20px;
+  gap: 20px; 
+}
+
+.pfp img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 30px;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  color: #bda01e;
+}
+.description {
+  font-size: 20px;
+  font-family: 'Ubuntu';
+  color: #bda01e;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+li {
+  margin-right: 50px;
+  font-size: 25px;
+  font-family: 'Ubuntu';
+  color: #bda01e;
+  align-items: center;
+  font-weight: bold;
+}
+
+.about {
+  font-size: 25px;
+  font-weight: normal;
+  color: #bda01e;
+  font-family: 'Ubuntu';
+}
+
+.subsamout {
+  font-size: 25px;
+  font-weight: bold;
+  color: #be731e;
+  font-family: 'Ubuntu';
+}
+
+.about2 {
+  font-size: 25px;
+  font-weight: normal;
+  color: #bda01e;
+  font-family: 'Ubuntu';
+  margin-bottom: 5px;
+}
+
+.youtube {
+  font-size: 30px;
+  color: #ff0000;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.discord {
+  font-size: 30px;
+  color: #5900ff;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+  text-decoration: none;
+  margin-bottom: 3px;
+}
+
+.tiktok {
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+  text-decoration: none;
+  margin-bottom: 3px;
+  text-shadow: -2px -2px 0 blue, 2px 2px 0 red;
+}
+
+.roblox {
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+  text-decoration: none;
+  margin-bottom: 3px;
+  text-shadow: -2px -2px 0 white, 2px 2px 0 white;
+}
+
+.shadow {
+  font-size: 30px;
+  color: #ff0000;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+  text-decoration: none;
+  margin-top: 10px;
+  text-shadow: -2px -2px 0 black, 2px 2px 0 black;
+}
